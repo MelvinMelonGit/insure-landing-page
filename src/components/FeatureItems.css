@@ -1,0 +1,34 @@
+.featureitems {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.featureitems__container {
+    padding-right: 2rem;
+}
+
+.featureitems__icon {
+    max-width: 20%;
+}
+
+.featureitems__title {
+    font-family: 'DM Serif Display', serif;
+    margin: 1rem 0;
+}
+
+.featureitems__content {
+    font-family: 'Karla', sans-serif;
+    margin: 1rem 0;
+    color: gray;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .featureitems {
+        flex-direction: column;
+    }
+
+    .featureitems__container {
+        padding-right: 0;
+    }
+}

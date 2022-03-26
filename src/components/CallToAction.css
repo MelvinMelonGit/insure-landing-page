@@ -1,0 +1,49 @@
+.calltoaction {
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    color: #fff;
+    position: relative;
+}
+
+.calltoaction__title {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.calltoaction::before {
+    content: '';
+    background: url("../images/bg-pattern-intro-right-desktop.svg");
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    background-position: right;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 25rem;
+}
+
+@media screen and (max-width: 960px) {
+    .calltoaction {
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }  
+
+    .calltoaction__title {
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .calltoaction::before {
+    content: '';
+    background: url("../images/bg-pattern-intro-right-desktop.svg");
+    background-position: top right;
+    top: 0;
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    }
+}

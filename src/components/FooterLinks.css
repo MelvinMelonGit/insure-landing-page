@@ -1,0 +1,11 @@
+.footerlinks {
+    padding: 3% 0;
+}
+
+.footerlinks__title {
+    text-transform: uppercase;
+}
+
+.footerlinks__subtitle:first-child {
+    margin-top: 2rem;
+}

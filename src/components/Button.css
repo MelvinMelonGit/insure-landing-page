@@ -1,0 +1,37 @@
+button,
+a {
+  font-size: 1rem;
+  font-family: "Karla", serif;
+  padding: 0.8rem 1.5rem;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn--desktop {
+  background: none;
+}
+
+.btn--dark {
+  border: 2px solid black;
+  color: black;
+}
+
+.btn--light {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn--mobile {
+  color: #fff;
+  border-color: #fff;
+  width: 60%;
+}
